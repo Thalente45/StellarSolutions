@@ -1,0 +1,85 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Stellar Solution-Home</title>
+</head>
+
+
+<body id="home page"> <!--Page Specific id-->
+
+    <!--Header Section--> 
+
+    <Header id="main-header">
+        <h1>Welcome to Stellar Solutions</h1>   <!--Main header-->
+
+<!--Navigation menu--> 
+     <nav id="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="#contact">Contact</a> <!--internal link to the contact section-->
+     </nav>
+    </Header>
+
+<hr>
+
+<!--Introduction section-->
+<section id="Intro-section">
+    <h2>Your Patner in innovation</h2> <!--Section heading-->
+    <p>
+        At Stellar Solutions, we provide <strong>cutting-edge</strong> solutions for modern businesses.
+        From software development to <em>creative design</em>
+    </p>
+
+    <!--Image representing teamwork-->
+    <img src="images/Team work.jpg"
+    alt="Team working together on a project."
+    style="max-width: 100%; height: auto;"> <!--Ensures image scales responsively-->
+
+</section>
+<hr>
+
+<!--Contact section-->
+<section id="contact-section">
+    <h2>Get in touch</h2>
+    <P>Have a project in mind? FILL out our contact form below and we will get back to you!</P>
+
+    <!--Contact Form-->
+    <form id="contact form" action="/submit-contact" method="post">
+   <label> for="email">Your Email:</label><br>
+   <input type="email" id="email" name="email" required><br><br>
+
+   <label for="message">Your Message:</label><br>
+   <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+     <input type="submit" value="send">
+</form>
+
+
+<hr>
+
+<!--IFrame for maps-->
+<h3>Find us here</h3>
+<iframe
+id="location-map"
+ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1734.354749332017!2d30.4057197386316!3d-29.612130024732846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef6bc4f1e7c8603%3A0x6f24436d4e06e7dc!2sThe%20IIE&#39;s%20Varsity%20College%20-%20Pietermaritzburg!5e0!3m2!1snl!2snl!4v1755509532772!5m2!1snl!2snl" 
+ width="600"
+ height="450"
+ style="border: 0;"
+ allowfullscreen=""
+ loading="lazy">
+</iframe>
+</section>
+
+
+<hr>
+
+<!--Footer section-->
+<footer id="main-footer">
+    <P>&copy; 2025 Stellar Solutions. ALL rights reserved.</P>
+</footer>
+
+
+</body>
+</html>
